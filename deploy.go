@@ -124,10 +124,10 @@ func run(ctx context.Context, yamlpath string, newImage string) error {
 			} else {
 				fmt.Println("Updating deployment...")
 				result, err := deploymentsClient.Update(context.TODO(), deployment, metav1.UpdateOptions{})
-				fmt.Printf("Updated deployment %q.\n", result.GetObjectMeta().GetName())
 				if err != nil {
 					panic(err)
 				}
+				fmt.Printf("Updated deployment %q.\n", result.GetObjectMeta().GetName())
 			}
 		}
 	}

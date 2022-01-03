@@ -20,6 +20,6 @@ You will create Go and Kubernetes YAML files to complete this project. Please sa
 ## Usage
 As a script: `go run deploy.go -yamlpath ./deployment.yaml -image nginx:1.17`
 
-As an command:
+As a command:
 1. `make build`
 2. `./deploy -yamlpath ./deployment.yaml -image nginx:1.17`
