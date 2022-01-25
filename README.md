@@ -17,7 +17,7 @@ You will create Go and Kubernetes YAML files to complete this project. Please sa
 3. Write a `deploy` go cli script which creates or updates the nginx deployment in k8s with a specific image tag. This image tag should be passed into the go script via a cli flag.
 4. Document how to run the script.
 
-## Prereqs
+## Prerequisites
 1. golint `go install golang.org/x/lint@latest`
 2. shadow `go install golang.org/x/tools/go/analysis/passes/shadow/cmd/shadow@latest`
 
