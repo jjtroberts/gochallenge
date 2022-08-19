@@ -1,4 +1,4 @@
-# Rackner's K8s AWS Deploy Challenge
+# K8s AWS Deploy Challenge
 
 The purpose of this challenge is to test your ability to work with Kubernetes, Go, and AWS.
 
